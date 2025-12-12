@@ -27,7 +27,7 @@ void setup() {
 
   // Attach and center head servo.
   scanner.attach(Head_Scanner);
-  scanner.setSpeed(100); // Set speed (adjust as needed)
+  scanner.setSpeed(75); // Set speed (adjust as needed)
   scanner.easeTo(Servo_Center);
 
 }
