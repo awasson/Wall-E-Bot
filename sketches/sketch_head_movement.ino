@@ -15,7 +15,7 @@ ServoEasing scanner; // Use ServoEasing object
 // MG90S Mini-servo (5 volt).
 #define Head_Scanner 9
 
-// The mini-servo doesn't center at 90. The variance is 7. 
+// The mini-servo doesn't center at 90. The variance is 8. 
 int Variance      = 8; 
 int Servo_Center  = 90 + Variance;
 int Scan_Left     = 135 + Variance; 
